@@ -59,7 +59,7 @@ struct BookCell: View {
             }
         }
     }
-    
+    //waaaa
     private var bookViewWithFailure: some View {
         let failureRate = record.failureRate
         let tiltAngle = failureRate * 45.0 // 最大45度まで傾斜
